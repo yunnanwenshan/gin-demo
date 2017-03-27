@@ -1,0 +1,22 @@
+package: .
+import:
+- package: github.com/go-sql-driver/mysql
+  version: ^1.3.0
+- package: github.com/go-xorm/xorm
+  version: ^0.5.8
+- package: github.com/polaris1119/config
+- package: github.com/Unknwon/goconfig
+- package: github.com/gin-gonic/gin
+  version: ^1.1.4
+  repo: http://github.com/gin-gonic/gin
+- package: golang.org/x/sys
+- package: github.com/Sirupsen/logrus
+  version: ^0.11.4
+  repo: http://github.com/Sirupsen/logrus
+- package: github.com/polaris1119/goutils.git
+  repo: http://github.com/polaris1119/goutils.git
+- package: github.com/jmcvetta/randutil
+  repo: http://github.com/jmcvetta/randutil
+- package: github.com/boj/redistore
+  version: ^1.2.0
+  repo: http://github.com/boj/redistore
