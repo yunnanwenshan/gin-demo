@@ -1,0 +1,2 @@
+compile_command: 
+run_command: HOST=0.0.0.0 PORT=8080 go run main.go
