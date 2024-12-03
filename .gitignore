@@ -3,3 +3,9 @@ node_modules/
 vendor/
 .1024*
 !.1024
+bin/
+pkg/
+*.exe
+*.out
+*.tmp
+*.swp
