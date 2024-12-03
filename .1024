@@ -1,2 +1,2 @@
-compile_command: 
-run_command: HOST=0.0.0.0 PORT=8080 go run main.go
+compile_command: go build -o bin/main src/mysite/main.go
+run_command: go run src/mysite/main.go
